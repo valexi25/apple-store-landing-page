@@ -17,4 +17,3 @@ O projeto apresenta um visual "Cyberpunk/Tech" utilizando cores neon (Ciano `#00
 * **CSS3**: Variáveis, Flexbox, Keyframes (animação `pulse`) e Filtros.
 * **JavaScript (Vanilla)**: Lógica de manipulação do DOM para o slider (sem uso de bibliotecas externas).
 
-## 🚀 Como Executar
