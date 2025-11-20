@@ -298,3 +298,54 @@ header nav ul li:hover:after {
     left: 70%;
 }
 
+@media screen and (max-width: 900px) {
+
+    /* 1. Arrumar o Cabeçalho (Logo em cima, menu embaixo) */
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    /* 2. Empilhar o conteúdo do produto */
+    .list .item {
+        display: flex;
+        flex-direction: column; /* Coloca imagem em cima e texto embaixo */
+        justify-content: center;
+        align-items: center;
+        text-align: center; /* Centraliza o texto */
+        padding-top: 80px; /* Espaço para não bater no menu */
+    }
+
+    /* 3. Ajustar a Imagem */
+    .product-img img {
+        width: 80%; /* Reduz um pouco a imagem */
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    /* 4. Arrumar o Texto (Atenção à classe 'contet' do seu HTML) */
+    .contet {
+        width: 100%;
+        padding: 0 20px; /* Margem nas laterais */
+        position: relative;
+        left: 0; /* Remove deslocamentos laterais se houver */
+    }
+
+    .product-name {
+        font-size: 2rem; /* Diminui o título */
+        line-height: 1.2;
+    }
+
+    .description {
+        font-size: 0.9rem; /* Texto menor para caber */
+        margin-bottom: 30px;
+    }
+
+    /* 5. Ajustar os botões de seta */
+    .arrows {
+        top: 90%; /* Move as setas para baixo */
+        width: 90%;
+        justify-content: space-between;
+    }
+}
